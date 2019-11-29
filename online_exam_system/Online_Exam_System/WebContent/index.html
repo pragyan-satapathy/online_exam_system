@@ -1,0 +1,287 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background: white;
+}
+.div1{
+  width:100%;
+  height:90%;
+  border:1px solid blue;
+  box-sizing: border-box;
+
+}
+.content {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+.loginbtn
+        {
+            float: center;
+            margin-right: 200px;
+            margin-left: 10px;
+            margin-top: 50px;
+            padding: 6px 20px;
+            font-size: 14px;
+            font-weight: bold;
+            color: blue;
+            background-color: white;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#07A8C3), to(#6EE4E8));
+            background-image: -moz-linear-gradient(top left 90deg, #07A8C3 0%, #6EE4E8 100%);
+            background-image: linear-gradient(top left 90deg, #07A8C3 0%, #6EE4E8 100%);
+            border-radius: 30px;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+        .loginbtn:hover
+        {
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#b6e2ff), to(#6ec2e8));
+            background-image: -moz-linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+            background-image: linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+
+        }
+        .exitbtn
+        {
+          float: right;
+            margin-left: 5px;
+            margin-right: 20px;
+            margin-top: 50px;
+            padding: 6px 25px;
+            font-size: 14px;
+            font-weight: bold;
+            color: blue;
+            background-color: white;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#07A8C3), to(#6EE4E8));
+            background-image: -moz-linear-gradient(top left 90deg, #07A8C3 0%, #6EE4E8 100%);
+            background-image: linear-gradient(top left 90deg, #07A8C3 0%, #6EE4E8 100%);
+            border-radius: 30px;
+            border: 1px solid black;
+            cursor: pointer;  
+        }
+
+
+</style>
+</head>
+<body>
+
+
+
+<div class="div1">
+<div class="content">
+<h3><font size="5">COLLEGE OF ENGINEERING AND TECHNOLOGY </font></h3>
+<img src="logo.png" width="80%" height="80%">
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INFORMATION TECHNOLOGY</h3>
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADVANCE LAB PROJECT</h3>
+ 
+ 	<a href="std_login.html"> <input type="submit" class="loginbtn" value=" Student Login" id="btnSubmit" /></a>
+  	<a href="admin_login.html"> <input type="submit" class="loginbtn" value=" Admin Login" id="btnSubmit" /></a>
+  
+
+</div>
+</div>
+</body>
+</html>
+ -->
+ 
+ 
+ 
+ 
+ 
+ <!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+margin: 0;
+  padding: 0;
+   background:black;
+ 
+
+  
+  }
+
+.content {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+.div1 {
+  background-color: white;
+    background-image: url( "ex2.jpg");
+  margin-left: 500px;
+            margin-right: 100px;
+            margin-top: 50px;
+			margin-left:375px;
+         
+            
+  
+  width: 500px;
+  height:400px;
+  border: 10px solid blue;
+  padding: 50px;
+  border-radius:30px
+  }
+.loginbtn
+        {
+            float: center;
+			width:200px;
+			height:50px;
+            margin-right: 50px;
+            margin-left: 10px;
+            margin-top: 50px;
+            padding: 6px 20px;
+            font-size: 14px;
+            font-weight: bold;
+            color: blue;
+            background-color: black;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#07A8C3), to(#6EE4E8));
+            background-image: -moz-linear-gradient(top left 90deg, #07A8C3 0%, #6EE4E8 100%);
+            background-image: linear-gradient(top left 90deg, #07A8C3 0%, #6EE4E8 100%);
+            border-radius: 30px;
+            border: 3px solid black;
+            cursor: pointer;
+        }
+        .loginbtn:hover
+        {
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#b6e2ff), to(#6ec2e8));
+            background-image: -moz-linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+            background-image: linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+
+        }
+		. loginbtnspan {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+..loginbtnspan:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+..loginbtn:hover span {
+  padding-right: 25px;
+}
+
+..loginbtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.loginbtn:hover {
+  background-position: 0 0, 0 0;
+  
+  -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+
+        .exitbtn
+        {
+          float: right;
+		  width:200px;
+			height:50px;
+            margin-left: 5px;
+            margin-right: 20px;
+            margin-top: 50px;
+            padding: 6px 25px;
+            font-size: 14px;
+            font-weight: bold;
+            color: blue;
+            background-color: white;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#07A8C3), to(#6EE4E8));
+            background-image: -moz-linear-gradient(top left 90deg, #07A8C3 0%, #6EE4E8 100%);
+            background-image: linear-gradient(top left 90deg, #07A8C3 0%, #6EE4E8 100%);
+            border-radius: 30px;
+            border: 3px solid black;
+            cursor: pointer;  
+        }
+ .exitbtn:hover
+        {
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#b6e2ff), to(#6ec2e8));
+            background-image: -moz-linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+            background-image: linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+
+        }
+. exitbtnspan {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.exitbtnspan:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.exitbtn:hover span {
+  padding-right: 25px;
+}
+
+.exitbtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+
+
+<marquee direction="right"><h4> <font size="5"><font color="yellow">COLLEGE OF ENGINEERING AND TECHNOLOGY</h4></marquee>
+
+
+
+
+
+
+
+<div class="div1">
+
+
+<table align="center" >
+<tr align="center">
+<td align="center">
+<img src="logo.jpg" width="60%" height="60%"></td></tr>
+</table>
+
+<h3><font color="blue"align="center"><font size="5"><marquee direction="right">INFORMATION TECHNOLOGY</h3></marquee>
+<h3><font color="black" align="center"><font size ="5">ADVANCE LAB PROJECT</h3>
+ <table align="center">
+ <tr>
+ <td>
+ 	<a href="std_login.html"> <input type="submit" class="loginbtn"value=" Student Login" id="btnSubmit" /></a></td>
+  	
+  
+ <td><a href="admin_login.html"><input type="submit" class="exitbtn" value=" admin Login" id="btnSubmit" /></a></td><tr>
+
+</table>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+ 
